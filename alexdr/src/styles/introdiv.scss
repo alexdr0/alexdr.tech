@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.introdiv{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(180deg, white, #0338be);
+    padding: 0; margin: 0
+}
+
+.header{
+    font-family: 'Roboto Mono', monospace;
+    font-size:175pt;
+    text-align: center;
+}
+
+.introdiv-text{
+    width: 100%;
+    height:auto;
+    margin-top: calc(25% - 200pt);
+}
+
+
+@media only screen and (max-width: 1360px) {
+    .header{
+        font-size:125pt;
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+    .header{
+        font-size: 100pt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        font-size:50pt;
+    }
+    .introdiv-text{
+        margin-top:40%;
+        width:100%;
+        height:auto;
+    }
+
+    .subtext{
+        font-size:10pt;
+    }
+}
+
+
+.subtext{
+    font-size:15pt;
+    font-family:Roboto mono;
+    font-weight:bold;;
+
+    animation-name: subtext;
+    animation-duration: 2.5s;
+    padding: 10pt;
+}
+
+@keyframes subtext{
+    0%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.down-animation{
+    animation-name: down-animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down-animation{
+    80%{margin-top:0;}
+    90%{margin-top:5pt;}
+    100%{margin-top:0;}
+}
+
+.fade-in-down{
+    animation-name: subtext;
+    animation-duration: 2.5s;
+    margin-top:2.5%;
+}
