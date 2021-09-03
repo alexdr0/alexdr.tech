@@ -12,6 +12,9 @@
   "dependencies": {
     "@cypress/vue": "^2.2.3",
     "core-js": "^3.6.5",
+    "i": "^0.3.6",
+    "mobile-device-detect": "^0.4.3",
+    "npm": "^7.22.0",
     "vue": "^3.0.0",
     "vue-class-component": "^7.2.6",
     "vue-router": "^4.0.0-0",
@@ -41,6 +44,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^10.2.0",
     "typescript": "~4.1.5"
   },
   "eslintConfig": {
