@@ -22,6 +22,27 @@
         width: 100%;
         height: 100%;
 
-        
+        &:nth-child(1){
+            .profilephoto{
+                height: 200pt;
+                border-radius: 100pt;
+                margin-top: 30vh;
+            }
+
+            .profile-name{
+                font-family: inter;
+                font-size: 30pt;
+                font-weight:bold;
+                color: white;
+            }
+        }
+        &:nth-child(2){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .skill{
+                margin-top: 30vh;
+            }
+        }
     }
 }

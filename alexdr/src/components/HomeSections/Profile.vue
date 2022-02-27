@@ -4,8 +4,14 @@
         <div className="fade-buffer" v-else />
 		<div class="mainarea">
 			<div class="halves">
+				<img src="@/assets/profilephoto.jpg" class="profilephoto" /><br>
+				<span class="profile-name">Alexander Bobo</span>
 			</div>
 			<div class="halves">
+				<div class="skill"></div>
+				<div class="skill"></div>
+				<div class="skill"></div>
+				<div class="skill"></div>
 			</div>
 		</div>
     </div>
