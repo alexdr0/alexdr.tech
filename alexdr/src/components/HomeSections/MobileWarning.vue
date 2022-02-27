@@ -3,7 +3,7 @@
         <div class="top" />
         <div class="mainContentArea">
             <Buffer buffer="20" />
-            <h1> Please use a desktop browser for the best user experience. </h1>
+            <h1> Please use a desktop/laptop browser for the best user experience. </h1>
         </div>
     </div>
 </template>

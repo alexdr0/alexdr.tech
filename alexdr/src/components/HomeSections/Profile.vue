@@ -2,6 +2,12 @@
     <div>
         <div v-if="isMobile" className="fade-buffer mobile" />
         <div className="fade-buffer" v-else />
+		<div class="mainarea">
+			<div class="halves">
+			</div>
+			<div class="halves">
+			</div>
+		</div>
     </div>
 </template>
 
@@ -18,5 +24,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '@/styles/ProgrammingSkills/ProgrammingSkills.scss';
+    @import '@/styles/Profile/Profile.scss';
 </style>

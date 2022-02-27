@@ -7,7 +7,7 @@
             <router-link to="/">Home</router-link>
           </button>
           <button class="button is-link is-light header-buttons">
-            <router-link to="/projects">Projects</router-link>
+            <router-link to="/projects">Contact Me</router-link>
           </button>
         </div>
       </div>
